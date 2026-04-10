@@ -1,0 +1,5 @@
+,acetaminophen,warfarin,metronidazole,nitrofurantoin
+acetaminophen,1.0,0.0,0.0,0.0
+warfarin,0.0,1.0,0.0,0.0
+metronidazole,0.0,0.0,1.0,1.0
+nitrofurantoin,0.0,0.0,1.0,1.0
