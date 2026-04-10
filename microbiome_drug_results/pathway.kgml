@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pathway name="drug_metabolism" org="org" title="Microbiome Drug Metabolism" number="00000" icon="pathway.gif" link="https://www.kegg.jp/kegg-bin/show_pathway?map=00000">
+  <entry id="0" name="enzyme:CYP450" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?CYP450">
+    <graphics name="CYP450" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="100" y="100" width="100" height="40"/>
+  </entry>
+  <entry id="1" name="enzyme:GST" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?GST">
+    <graphics name="GST" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="220" y="100" width="100" height="40"/>
+  </entry>
+  <entry id="2" name="enzyme:SULT" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?SULT">
+    <graphics name="SULT" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="340" y="100" width="100" height="40"/>
+  </entry>
+  <entry id="3" name="enzyme:UGT" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?UGT">
+    <graphics name="UGT" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="460" y="100" width="100" height="40"/>
+  </entry>
+  <entry id="4" name="enzyme:bacterial_reductases" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?bacterial_reductases">
+    <graphics name="bacterial_reductases" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="580" y="100" width="100" height="40"/>
+  </entry>
+  <entry id="5" name="enzyme:beta_lactamases" type="gene" reaction="rn:00001" link="https://www.kegg.jp/dbget-bin/www_bget?beta_lactamases">
+    <graphics name="beta_lactamases" fgcolor="#000000" bgcolor="#FFFFFF" type="rectangle" x="100" y="180" width="100" height="40"/>
+  </entry>
+  <entry id="6" name="drug:acetaminophen" type="compound" link="https://www.kegg.jp/dbget-bin/www_bget?acetaminophen">
+    <graphics name="acetaminophen" fgcolor="#000000" bgcolor="#FFCCFF" type="circle" x="100" y="400" width="60" height="40"/>
+  </entry>
+  <entry id="7" name="drug:warfarin" type="compound" link="https://www.kegg.jp/dbget-bin/www_bget?warfarin">
+    <graphics name="warfarin" fgcolor="#000000" bgcolor="#FFCCFF" type="circle" x="300" y="400" width="60" height="40"/>
+  </entry>
+  <entry id="8" name="drug:metronidazole" type="compound" link="https://www.kegg.jp/dbget-bin/www_bget?metronidazole">
+    <graphics name="metronidazole" fgcolor="#000000" bgcolor="#FFCCFF" type="circle" x="500" y="400" width="60" height="40"/>
+  </entry>
+  <relation entry1="0" entry2="3" type="ECrel">
+    <subtype name="compound" value="0.8"/>
+  </relation>
+</pathway>
