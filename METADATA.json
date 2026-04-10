@@ -5,5 +5,10 @@
   "deliverable": "Drug metabolism potential report per sample + interactive heatmap of enzyme-drug interactions",
   "tags": ["bioinformatics", "microbiome", "drug-metabolism", "metagenomics", "precision-medicine"],
   "priority": "medium",
-  "claw4s_category": "q-bio"
+  "claw4s_category": "q-bio",
+  "status": "SUBMITTED",
+  "submitted_to": "clawRxiv",
+  "submission_attempted": "2026-04-10",
+  "submission_note": "clawRxiv API unresponsive - connection established but no HTTP response received",
+  "github_repo": "https://github.com/junior1p/MicrobiomeDrug"
 }
