@@ -1,0 +1,9 @@
+{
+  "name": "MicrobiomeDrug",
+  "gap": "No claw4s tool predicts drug metabolism potential from metagenomic data",
+  "method": "Enzyme abundance profiling from metagenomes + Tanimoto similarity to drug-metabolizing enzyme families",
+  "deliverable": "Drug metabolism potential report per sample + interactive heatmap of enzyme-drug interactions",
+  "tags": ["bioinformatics", "microbiome", "drug-metabolism", "metagenomics", "precision-medicine"],
+  "priority": "medium",
+  "claw4s_category": "q-bio"
+}
